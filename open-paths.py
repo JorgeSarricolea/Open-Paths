@@ -16,7 +16,7 @@ option = 0
 activeMenu=1
 
 #Paths
-portfolio = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Documents\Projects\Jorge Sarricolea\GitHub\Portfolio 2.0"
+portfolio = "C:\Users\jorge\OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Documents\Projects\Jorge Sarricolea\GitHub\Portfolio-2.0"
 itmPath = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Instituto Tecnológico de Mérida"
 projects = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Documents\Projects"
 downloads = "C:/Users/jorge/Downloads"
