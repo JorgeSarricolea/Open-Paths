@@ -4,12 +4,12 @@ import os
 menu = """
     -- MENU OF PATHS --
 
-    1. Portfolio
-    2. ITM Folder
-    3. Projects
-    4. Downloads
-    5. Multimedia
-    6. Open the first 3 paths
+    1. GitHub Folder
+    2. Portfolio
+    3. ITM Folder
+    4. Projects
+    5. Downloads
+    6. Multimedia
     7. Exit
         """
 option = 0
@@ -39,10 +39,6 @@ while activeMenu == 1:
     if option == 6:
         os.startfile(multimedia)
     if option == 7:
-        os.startfile(portfolio)
-        os.startfile(itmPath)
-        os.startfile(projects)
-    if option == 8:
         activeMenu = 0
         print("\nBYE BYE 👋")
 
