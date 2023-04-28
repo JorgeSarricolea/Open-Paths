@@ -16,6 +16,7 @@ option = 0
 activeMenu=1
 
 #Paths
+GitHub = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Documents\Projects\Jorge Sarricolea\GitHub"
 portfolio = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Documents\Projects\Jorge Sarricolea\GitHub\Portfolio-2.0"
 itmPath = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Instituto Tecnológico de Mérida"
 projects = "C:/Users/jorge/OneDrive - INSTITUTO TECNOLOGICO DE MERIDA\Documents\Projects"
@@ -26,20 +27,22 @@ while activeMenu == 1:
     print(menu)
     option = int(input("    Select an option by typing the number: "))
     if option == 1:
-        os.startfile(portfolio)
+        os.startfile(GitHub)
     if option == 2:
-        os.startfile(itmPath)
+        os.startfile(portfolio)
     if option == 3:
-        os.startfile(projects)
+        os.startfile(itmPath)
     if option == 4:
-        os.startfile(downloads)
+        os.startfile(projects)
     if option == 5:
-        os.startfile(multimedia)
+        os.startfile(downloads)
     if option == 6:
+        os.startfile(multimedia)
+    if option == 7:
         os.startfile(portfolio)
         os.startfile(itmPath)
         os.startfile(projects)
-    if option == 7:
+    if option == 8:
         activeMenu = 0
         print("\nBYE BYE 👋")
 
